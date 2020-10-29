@@ -41,7 +41,7 @@
 
 > ![](./docs/images/screenshots/screenshot1.png)
 
-**Note:** *User authentication is not implemented for this prototype - passwords are not saved. Choose to create a new account to sign in.*
+**Note:** *User authentication is not implemented for this prototype - passwords are not saved. Choose to make a new account to sign in.*
 
 &nbsp;
 
