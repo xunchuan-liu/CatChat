@@ -1,5 +1,4 @@
 # CatChat
-
 #### *Project for CS 330 - Human Computer Interaction*
 
 ### An anonymous discussion forum for Northwestern students regarding mental health topics.
@@ -10,7 +9,7 @@
 
 ### Slide deck for **problem statement**, **background research**, and **paper prototyping**. 
 
-> #### https://docs.google.com/presentation/d/1Bish-54XwT0j9OecXiPL2XumkdeHV4qmBtHX2BA5Njw/edit?usp=sharing
+> ### https://docs.google.com/presentation/d/1Bish-54XwT0j9OecXiPL2XumkdeHV4qmBtHX2BA5Njw/edit?usp=sharing
 
 &nbsp;
 
@@ -18,14 +17,14 @@
 
 ### Slide deck for **user testing findings**, **user stories and features**, and **final interface demo**.
 
-> #### https://docs.google.com/presentation/d/1hEfxeEChvspTtb74NxA8sxZ-23R1u120cZEXdSsoMmQ/edit?usp=sharing
+> ### https://docs.google.com/presentation/d/1hEfxeEChvspTtb74NxA8sxZ-23R1u120cZEXdSsoMmQ/edit?usp=sharing
 
 &nbsp;
 
 ## **Demo**
 
 ### **Prototype Link:** 
-> #### https://xunchuan-liu.github.io/CatChat/
+> ### https://xunchuan-liu.github.io/CatChat/
 
 &nbsp;
 
@@ -56,7 +55,7 @@
 
 &nbsp;
 
-### Select the ***+*** to write a new post. 
+### Select ***+*** to write a new post. 
 ![](./docs/images/screenshots/screenshot5.png)
 ![](./docs/images/screenshots/screenshot6.png)
 
