@@ -1,7 +1,15 @@
 # CatChat
-#### *Project for CS 330 - Human Computer Interaction*
+> #### *Project for CS 330 - Human Computer Interaction*
 
 ### An anonymous discussion forum for Northwestern students regarding mental health topics.
+
+&nbsp;
+
+## **Project Team**
+- David Lee
+- Mason Brachmann
+- David Zane
+- Xunchuan Liu
 
 &nbsp;
 
@@ -21,9 +29,9 @@
 
 &nbsp;
 
-## **Demo**
+## **Prototype**
 
-### **Prototype Link:** 
+### **Demo Link:** 
 > ### https://xunchuan-liu.github.io/CatChat/
 
 &nbsp;
