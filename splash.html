@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CATCHAT Splash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/extras.css">
+
+    <body>
+
+        <div>
+            <div id = "select_header" style = "color: #660099">Join a Discussion</div>
+            <div class="card-deck mb-3 text-center" style = "width: 95%; padding-top: 4%; padding-left: 7%;">
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal" id = "academics" style = "color: #660099">Academics</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title" style = "color: #660099">46 <div class="text-muted small_text" > talking about this</div></h1>
+
+                        School can suck. Academic advice and support.
+                        <br><br>
+                        <a href = "main.html"><button type="button" href="main.html" class="btn btn-lg btn-block btn-secondary" id = "Academics" onclick = "savetopic(this.id);update_starter(this.id);">Go!</button></a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal" style = "color: #660099">Relationships</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title" style = "color: #660099">31 <div class="text-muted small_text" > talking about this</div></h1>
+                        Get support on relationship troubles.
+                        <br><br>
+                        <a href = "main.html"><button type="button" href="main.html" class="btn btn-lg btn-block btn-secondary" id = "Relationships" onclick = "savetopic(this.id);update_starter(this.id);">Go!</button></a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal" style = "color: #660099">Bummed</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title" style = "color: #660099">39 <div class="text-muted small_text" > talking about this</div></h1>
+                        Let it all out when you're just having one of those days.
+                        <br><br>
+                        <a href = "main.html"><button type="button" href="main.html" class="btn btn-lg btn-block btn-secondary" id = "Bummed" onclick = "savetopic(this.id);update_starter(this.id);">Go!</button></a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal" style = "color: #660099">Feeling Good</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title" style = "color: #660099">22 <div class="text-muted small_text" > talking about this</div></h1>
+                        Spread the good vibes when life is looking up. <br><br>
+                        <a href = "main.html"><button type="button" href="main.html" class="btn btn-lg btn-block btn-secondary" id = "Feeling Good" onclick = "savetopic(this.id);update_starter(this.id);">Go!</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src = "app.js"></script>
+    </body>
+
+</head>
+</html>

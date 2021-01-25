@@ -1,0 +1,561 @@
+color: white;
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.replys{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.all_replies{
+  margin-left: 30px;
+}
+
+/* login stuff */
+.login-form-container{
+  border: 2px solid purple;
+  background-color: #D9DBDB;
+  color: black;
+  width: 380px;
+  margin-top: 100px;
+  margin-left: 30%;
+  display: inline-block;
+  height: 375px;
+  text-align: center;
+}
+#create-account-link{
+  padding-top: 20px;
+}
+
+#main{
+  border: 2px solid black;
+}
+
+#login-title{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#field-names{
+  float: left;
+  width: 39%;
+  text-align: right;
+}
+
+#login-field-textboxes{
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.login-input{
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.login-field-label{
+  margin-bottom: 38px;
+}
+
+#login-submit-button{
+}
+
+.register-input{
+  margin-bottom: 10px;
+  width: 90%;
+}
+#register-title{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Splash Screen */
+#selection {
+  color: firebrick;
+  font-size: 235%;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  border: black;
+}
+
+.subject {
+  color: darkmagenta;
+  border: royalblue;
+  border-style: solid;
+  border-style: round;
+  margin-bottom: 52px;
+  margin-left: 5px;
+  padding: 6px;
+  padding-left: 11px;
+  padding-right: 400px;
+}
+
+/* Post stuff */
+.postShell{
+  width: 100%;
+  align-items: center;
+  display: table;
+  margin-bottom: 10px;
+}
+#left{
+  display: table-cell;
+  width: 90%;
+}
+.voteCounter {
+  padding-left: 12px;
+  color: #6f42c1
+}
+.content{
+  width: 75%;
+  margin: 10px;
+  padding: 20px;
+  height: auto;
+  display: table-cell;
+}
+.reply-content{
+  width: 75%;
+  margin: 10px;
+  padding-left: 20px;
+  height: auto;
+  display: table-cell;
+}
+.extras{
+padding-left: 17px;
+display: flex;
+font-size: 12px;
+}
+.extras2{
+display: block;
+}
+.widget{
+  padding-left: 5px;
+}
+.actions{
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.reply-div{
+  height: auto;
+  width: 80%;
+  border:1px solid #6f42c1;
+
+  margin: 10px;
+  margin-left: 10%;
+}
+
+
+.buttonStyle{
+  text-decoration: none;
+  color: white;
+}
+
+.small_text{
+  font-size: 17px;
+}
+
+.color_purp{
+  color: #6f42c1;
+}
+
+#select_header{
+  text-align: center;
+  padding-top: 4%;
+  font-size: 50px;
+}
+.buttonStyle:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  color: white;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+/*Account Popup*/
+#popupBoxAccount{
+  top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+  background-color: rgba(0,0,0,0.7); display: none;
+}
+.accountBoxWrapper{
+  width: 550px; margin: 50px auto; text-align: center;
+}
+.accountBoxContent{
+  background-color: #FFF; padding: 15px;
+  height: 325px;
+  margin-top: 12%;
+}
+#account-title{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: 22px;
+}
+
+.account-input{
+  width: 100%;
+  height: 134px;
+}
+#account-field-textboxes{
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+#exit-account{
+  float: right;
+  color: red;
+  z-index: -1;
+}
+.profile-picture{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.user-name{
+  padding-bottom: 12px;
+  font-size: 16px;
+}
+
+
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #1564ad;
+	-webkit-box-shadow: 3px 4px 0px 0px #1564ad;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5));
+	background:-moz-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-webkit-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-o-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:-ms-linear-gradient(top, #79bbff 5%, #378de5 100%);
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5',GradientType=0);
+	background-color:#79bbff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff));
+	background:-moz-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-webkit-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-o-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:-ms-linear-gradient(top, #378de5 5%, #79bbff 100%);
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff',GradientType=0);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Post Popup */
+#popupBoxOnePosition{
+  top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+  background-color: rgba(0,0,0,0.7); display: none;
+}
+#popupReplyBox{
+  top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+  background-color: rgba(0,0,0,0.7); display: none;
+}
+.popupBoxWrapper{
+  width: 550px; margin: 50px auto; text-align: center;
+}
+.popupBoxContent{
+  background-color: #FFF; padding: 15px;
+  height: 325px;
+  margin-top: 12%;
+}
+#post-title{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 22px;
+}
+
+.post-input{
+  width: 100%;
+  height: 134px;
+}
+#post-field-textboxes{
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+#exit-post{
+  float: right;
+  color: red;
+  z-index: -1;
+}
+
+#login-submit-button{
+}
+/*Reply*/
+#popupBoxReply{
+  top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+  background-color: rgba(0,0,0,0.7); display: none;
+}
+.replyBoxWrapper{
+  width: 550px; margin: 50px auto; text-align: center;
+}
+.replyBoxContent{
+  background-color: #FFF; padding: 15px;
+  height: 325px;
+  margin-top: 12%;
+}
+#reply-title{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 22px;
+}
+
+.reply-input{
+  width: 100%;
+  height: 134px;
+}
+#reply-field-textboxes{
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+#exit-reply{
+  float: right;
+  color: red;
+  z-index: -1;
+}
+
+/* Report Popup */
+input[type="radio"]{
+  position: absolute;
+  right: 9000px;
+}
+
+input[type="radio"] + .label-text:before{
+  content: "\f10c";
+  font-family: "FontAwesome";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing:antialiased;
+  width: 1em;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+input[type="radio"]:checked + .label-text:before{
+  content: "\f192";
+  color: #8e44ad;
+  animation: effect 250ms ease-in;
+}
+
+input[type="radio"]:disabled + .label-text{
+  color: #aaa;
+}
+
+a:link{
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+a:hover{
+  color: #8e44ad;
+  text-decoration: none;
+}
+
+div{
+  color: #5b5b5b;
+}
+input[type="radio"]:disabled + .label-text:before{
+  content: "\f111";
+  color: #ccc;
+}
+
+/*Report Popup*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+input[type="radio"] + .label-text:before{
+  content: "\f10c";
+  font-family: "FontAwesome";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing:antialiased;
+  width: 1em;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+input[type="radio"]:checked + .label-text:before{
+  content: "\f192";
+  color: #8e44ad;
+  animation: effect 250ms ease-in;
+}
+
+input[type="radio"]:disabled + .label-text{
+  color: #aaa;
+}
+
+input[type="radio"]:disabled + .label-text:before{
+  content: "\f111";
+  color: #ccc;
+}
+
+#myNavbar{
+  background-color: #4A0E50;
+  height: 60px;
+  color: white;
+}
+#logo{
+  height: 100%;
+  color: white;
+}
+#plus_post{
+  float: right;
+  height: 100%;
+
+}
+#plus_post_logo{
+  height: 150%
+  display: inline-block;
+  width: 50px;
+  color: white;
+}
+#posts{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+#time{
+  margin-left: 50px;
+  font-size: 10px;
+  padding-bottom: 3px;
+  margin-top: 180px;
+  margin-left: 1119px;
+}
+
+
+
+
+
+
+#post_content{
+  display: inline-flex;
+float: left;
+overflow: hidden;
+height: 90px;
+width: 87%;
+font-size: 12px;
+text-align: left;
+margin-left: 10px;
+margin-top: 10px;
+}
+#header{
+  height: 100px;
+  background-color: #6f42c1;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+}
+
+#topic_title{
+  font-size:60px;
+  width: auto;
+}
+#footer{
+  height: 50px;
+  background-color: #4A0E50;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+#sub-nav{
+  width: 100%;
+  padding-top: 20px;
+}
+
+#school{
+  font-size: 30px;
+
+}
+#my_posts{
+  font-size: 30px;
+
+}
+#spacer{
+  height: 50px;
+  width: 100%;
+}
+.control{
+  display: inline-block;
+}
+.sub-actions{
+  margin: 5px;
+}
+#action_icons{
+  float: right;
+  padding-left: 20%;
+  display: inline-flex;
+}
+#action_icons:hover{
+  text-decoration: none;
+}
+#action_logo{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: 40px;
+}
+
+
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
